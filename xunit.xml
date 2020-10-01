@@ -1,0 +1,5 @@
+<testsuite name="Mocha Tests" tests="1" failures="0" errors="1" skipped="0" timestamp="Wed, 24 Jun 2020 20:30:55 GMT" time="5.159">
+<testcase classname="Simple HTML test" name="should navigate to website and run the ace" time="0"><failure>9 accessibility violations were detected: expected 9 to equal 0
+AssertionError: 9 accessibility violations were detected: expected 9 to equal 0
+    at Context.eval (https://ultimateqa.com/__cypress/tests?p=cypress/support/index.js:42:443712)</failure></testcase>
+</testsuite>

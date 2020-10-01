@@ -1,0 +1,13 @@
+{
+    "$schema": "https://on.cypress.io/cypress.schema.json",
+    "watchForFileChanges":true,
+    "video": false,
+    "quiet":true,
+    "env": {
+        "appURL": "https://www.guru99.com/",
+        "rules" : "wcag2a",
+        "authType": "none",
+        "username": "test",
+        "password" : "test"
+      }
+}

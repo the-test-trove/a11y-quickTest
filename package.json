@@ -1,0 +1,25 @@
+{
+  "name": "a11y_quicktest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "A11y-cli": "cypress run --quiet --env",
+    "A11y-gui": "cypress open --env"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/the-test-trove/a11y-quickTest"
+  },
+  "author": "DivyangRaval",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^4.9.0",
+    "cypress-axe": "^0.8.1",
+    "cypress-multi-reporters": "^1.2.4",
+    "mocha": "^7.0.1",
+    "mochawesome": "^4.1.0",
+    "mochawesome-merge": "^4.0.0",
+    "mochawesome-report-generator": "^4.1.0"
+  }
+}
